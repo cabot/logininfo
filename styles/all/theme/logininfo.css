@@ -1,0 +1,12 @@
+#login_popup {
+	top: 25%;
+	padding: 0 1em 0.5em;
+}
+
+.login_popup_buttons {
+	text-align: center;
+}
+
+.login_popup_buttons .button {
+	margin-bottom: 0.3em;
+}

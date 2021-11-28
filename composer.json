@@ -1,0 +1,25 @@
+{
+    "name": "cabot/logininfo",
+    "type": "phpbb-extension",
+    "description": "Affiche une fenêtre en popup invitant à s'inscrire ou se connecter sur le forum.",
+    "homepage": "http://cabotweb.fr",
+    "version": "1.0.0",
+    "keywords": [ "phpbb", "extension" ],
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "cabot",
+            "homepage": "http://cabotweb.fr",
+            "role": "SushiMaker"
+        }	
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "extra": {
+        "display-name": "Message d'information et d'invitation à la connexion",
+        "soft-require": {
+            "phpbb/phpbb": "3.3"
+        }
+    }
+}

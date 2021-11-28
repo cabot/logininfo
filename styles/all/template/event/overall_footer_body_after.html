@@ -1,0 +1,14 @@
+<!-- IF not (S_USER_LOGGED_IN or S_IS_BOT or S_IN_UCP or S_IN_FAQ) -->
+<div id="login_popup" class="panel phpbb_alert">
+	<h2>Bienvenue sur {SITENAME}</h2>
+	<p>{SITE_DESCRIPTION}</p>
+	<p>Veuillez vous inscrire ou vous connecter afin d'avoir accès à l'ensemble des fonctions du forum.</p>
+	<div class="login_popup_buttons">
+		<a class="button" href="{U_LOGIN_LOGOUT}">{L_LOGIN}</a>
+		<a class="button" href="{U_REGISTER}">{L_REGISTER}</a>
+		<span id="login_popup_close" class="button">Ne plus afficher</span>
+	</div>
+</div>
+<!-- INCLUDECSS @cabot_logininfo/logininfo.css -->
+<!-- INCLUDEJS @cabot_logininfo/logininfo.js -->
+<!-- ENDIF -->
